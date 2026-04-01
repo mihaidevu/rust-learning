@@ -19,32 +19,41 @@
 
 ---
 
-## 2. Ownership & References
+## 2. Collections
 
-### 2.1 Borrowing & Slices
+### 2.1 HashMaps
+- **File:** [hashmaps](src/bin/hashmaps.rs)
+- **Topics:** Key-value pairs, insertion, lookup, mutable operations
+- **Example:** `HashMap::new()`, `insert()`, `get()`
+
+---
+
+## 3. Ownership & References
+
+### 3.1 Borrowing & Slices
 - **Topics:** Slice syntax `&[..]`, immutable borrows
 
-### 2.2 Mutable References
+### 3.2 Mutable References
 - **Topics:** Mutable borrows, multiple references
 
 ---
 
-## 3. Functions & Control Flow
+## 4. Functions & Control Flow
 
-### 3.1 Function Definitions
+### 4.1 Function Definitions
 - **Topics:** Parameters, return types, type annotations
 
-### 3.2 Closures
+### 4.2 Closures
 - **Topics:** Anonymous functions, captures, move semantics
 
 ---
 
-## 4. Structs & Enums
+## 5. Structs & Enums
 
-### 4.1 Struct Basics
+### 5.1 Struct Basics
 - **Topics:** Defining structs, methods, associated functions
 
-### 4.2 Enums
+### 5.2 Enums
 - **Topics:** Enum variants, pattern matching
 
 ---
